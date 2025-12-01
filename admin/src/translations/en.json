@@ -1,0 +1,4 @@
+{
+  "plugin.name": "Admin Users Import",
+  "plugin.description": "Import admin panel users in batch from Excel files"
+}
