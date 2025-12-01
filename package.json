@@ -72,10 +72,10 @@
   "author": "Matt Yiu <matt.yiu@wavenex.com.hk>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtyiu/strapi-batch-create-users.git"
+    "url": "git+https://github.com/mtyiu/strapi-plugin-admin-users-import.git"
   },
-  "homepage": "https://github.com/mtyiu/strapi-batch-create-users#readme",
+  "homepage": "https://github.com/mtyiu/strapi-plugin-admin-users-import#readme",
   "bugs": {
-    "url": "https://github.com/mtyiu/strapi-batch-create-users/issues"
+    "url": "https://github.com/mtyiu/strapi-plugin-admin-users-import/issues"
   }
 }
