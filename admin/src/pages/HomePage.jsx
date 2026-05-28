@@ -15,7 +15,7 @@ import { ImportModal } from '../components/ImportModal';
 
 // Constants
 const SUPER_ADMIN_CODE = 'strapi-super-admin';
-const API_BASE = `${process.env.STRAPI_ADMIN_BACKEND_URL}/admin-users-import`;
+const API_BASE = '/admin-users-import';
 
 /**
  * Download a file from a URL
@@ -76,7 +76,7 @@ const HomePage = () => {
   const handleDownloadTemplate = async () => {
     try {
       await downloadFile(
-        `${API_BASE}/template`,
+        `${process.env.STRAPI_ADMIN_BACKEND_URL}/${API_BASE}/template`,
         'user-import-template.xlsx',
         token
       );
