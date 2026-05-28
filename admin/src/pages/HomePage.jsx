@@ -111,7 +111,7 @@ const HomePage = () => {
 
     try {
       await downloadFile(
-        `${API_BASE}/results/${importResult.resultId}`,
+        `${process.env.STRAPI_ADMIN_BACKEND_URL}/${API_BASE}/results/${importResult.resultId}`,
         'user-import-results.xlsx',
         token
       );
